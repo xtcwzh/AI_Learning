@@ -1,0 +1,50 @@
+    1  clear
+    2  sudo apt-get update
+    3  sudo apt-get upgrade
+    4  sudo apt-get install ubuntu-desktop
+    5  sudo rebort
+    6  sudo reboot
+    7  ls
+    8  pwd
+    9  sudo passwd root
+   10  su root
+   11  sudo useadd -m xionger -s/bin/bash
+   12  sudo useradd -m xionger -s/bin/bash
+   13  ls
+   14  pwd
+   15  cd ..
+   16  ls
+   17  cd -
+   18  sudo passwd xionger
+   19  su xionger
+   20  sudo userdel -h
+   21  sudo userdel -r xionger
+   22  cd ..
+   23  ls
+   24  cd ~
+   25  mkdir test1
+   26  ls
+   27  touch file
+   28  ls
+   29  echo hello>file
+   30  cat file
+   31  cp file ./test1/
+   32  ls
+   33  cd test1
+   34  ls
+   35  cd ..
+   36  ls -l
+   37  chmod 666 file
+   38  ls
+   39  ls -l
+   40  chmod 777 test1
+   41  ls -l
+   42  ls -lh
+   43  find ./ fil
+   44  find ./ "fi*"
+   45  clear
+   46  history
+   47  clear
+   48  find ./ -name "file"
+   49  history
+   50  history > day_1.txt
